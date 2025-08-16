@@ -30,7 +30,7 @@ const InfoBar = () => {
         </p>
       </div>
       <div>
-        <a href="https://github.com/shepherd-media-classifier/shepherd/tree/stable-single-machine#readme">
+        <a href="https://github.com/shepherd-lists/shepherd/tree/stable-single-machine#readme">
           <Button variant="secondary">
             {" "}
             <p>↳ Visit Github</p>
