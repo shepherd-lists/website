@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/shepherd-media-classifier/shepherd/refs/heads/master/package.json"
+      "https://raw.githubusercontent.com/shepherd-lists/shepherd/refs/heads/master/package.json"
     )
       .then((response) => {
         if (!response.ok) {
@@ -45,7 +45,7 @@ function App() {
 
                   <p>
                     <a
-                      href="https://github.com/shepherd-media-classifier/shepherd/tree/stable-single-machine#readme"
+                      href="https://github.com/shepherd-lists/shepherd/tree/stable-single-machine#readme"
                       style={{ zIndex: "2", cursor: "pointer" }}
                     >
                       <i>shepherd</i>{" "}
@@ -101,7 +101,7 @@ function App() {
 
                   <p>
                     <a
-                      href="https://github.com/shepherd-media-classifier/shepherd/tree/stable-single-machine#readme"
+                      href="https://github.com/shepherd-lists/shepherd/tree/stable-single-machine#readme"
                       style={{ zIndex: "2", cursor: "pointer" }}
                     >
                       <i>shepherd</i>{" "}

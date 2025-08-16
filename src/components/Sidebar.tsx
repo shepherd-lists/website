@@ -33,7 +33,7 @@ const Sidebar: React.FC<SidebarProps> = ({ version }) => {
             </div>
           </div>
           <div className="button-wrapper">
-            <a href="https://github.com/shepherd-media-classifier/shepherd/tree/stable-single-machine#readme">
+            <a href="https://github.com/shepherd-lists/shepherd/tree/stable-single-machine#readme">
               {" "}
               <Button variant="accent">
                 <picture className="github-logo">
