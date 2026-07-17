@@ -12,8 +12,7 @@
     "dev-deploy": "npm run build && npx permaweb-deploy deploy -w wallet.json --use-names --name dev_shepherd --deploy-folder ./dist",
     "balance:ar": "curl -s https://arweave.net/wallet/8v3rZ8fIulJP0fFUKdHq1W26h51TeJfK216LrTlh_B0/balance | jq 'tonumber / 1e12'",
     "balance:ario": "curl -s https://payment.ardrive.io/v1/balance?address=8v3rZ8fIulJP0fFUKdHq1W26h51TeJfK216LrTlh_B0  | jq '.effectiveBalance | tonumber / 1e12'",
-    "preview": "npm run build && npx -y serve -l 1234 ./dist/ & sleep 2 && open http://localhost:1234 && wait",
-    "test": "mocha"
+    "preview": "npm run build && npx -y serve -l 1234 ./dist/ & sleep 2 && open http://localhost:1234 && wait"
   },
   "dependencies": {
     "arweave": "^1.11.6",
@@ -25,8 +24,6 @@
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "buffer": "^6.0.3",
-    "chai": "latest",
-    "mocha": "latest",
     "parcel": "latest",
     "permaweb-deploy": "^5.0.0",
     "process": "^0.11.10",
