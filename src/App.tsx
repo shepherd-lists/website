@@ -125,6 +125,16 @@ function App() {
                     for a particular app’s content media.
                   </p>
                 </div>
+                <div className="column content-container">
+                  <h2>
+                    <span>04</span> Found Something Suspicious?
+                  </h2>
+
+                  <p>
+                    If you find malware/phishing links being served from the arweave.net gateway service, please report them to the
+                    team by emailing us at <a href="mailto:abuse@arweave.org">abuse@arweave.org</a>
+                  </p>
+                </div>
               </main>
             </div>
           </div>
